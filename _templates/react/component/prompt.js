@@ -16,7 +16,7 @@ module.exports = {
     return inquirer.prompt(questions).then((answer) => {
       const { changePath } = answer;
 
-      if (changePath.startsWith('y')) {
+      if (changePath.toLowerCase().startsWith('y')) {
         return inquirer
           .prompt({
             type: 'input',
