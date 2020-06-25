@@ -9,7 +9,8 @@ module.exports = {
       {
         type: 'input',
         name: 'changePath',
-        message: 'Would you like to specify custom path or use current directory? [y/N]',
+        message:
+          'Would you like to specify custom path or use current directory? [y/N]',
       },
     ];
 
@@ -26,7 +27,7 @@ module.exports = {
           .then((newAnswer) => ({ ...answer, ...newAnswer }));
       }
 
-      return { ...answer, path: '.' };
+      return { ...answer, path: process.cwd() };
     });
   },
 };
