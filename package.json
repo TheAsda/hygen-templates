@@ -1,0 +1,8 @@
+{
+  "name": "hygen-templates",
+  "version": "0.0.3",
+  "description": "Templates for hygen",
+  "repository": "http://github.com/TheAsda/hygen-templates.git",
+  "author": "Andrey Kiselev <omega-faworit@yandex.ru>",
+  "license": "MIT"
+}
