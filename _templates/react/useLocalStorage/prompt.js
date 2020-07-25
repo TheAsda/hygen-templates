@@ -1,5 +1,11 @@
 module.exports = {
-  prompt: ({ inquirer }) => {
+  prompt: ({ inquirer, args }) => {
+    if (args && args.path) {
+      return {
+        path: args.path,
+      };
+    }
+
     const questions = [
       {
         type: 'input',
