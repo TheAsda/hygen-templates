@@ -12,8 +12,8 @@ to: package.json
     "start": "yarn parcel"
   },
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "parcel": "^1.12.4"
