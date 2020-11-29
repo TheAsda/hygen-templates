@@ -1,5 +1,5 @@
 ---
-to: src\App.js
+to: src\App.tsx
 ---
 import React from 'react';
 
